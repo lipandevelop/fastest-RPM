@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BF627CD7FB893A2924FCC838E640A4BB64998F22",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7E228621A0B04E44691B276A09D3A282E06F75ED" : 0,
+    "BF627CD7FB893A2924FCC838E640A4BB64998F22" : 0,
+    "40C97400BEF39AB6892F28B3F40F74C9BC448AF6" : 0,
+    "5C4A2CFC87A6C12E65338C336A08B102B0BD5751" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BE23FBDE-3374-4130-876E-01E25768888A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7E228621A0B04E44691B276A09D3A282E06F75ED" : "",
+    "BF627CD7FB893A2924FCC838E640A4BB64998F22" : "Fastest-RPM\/",
+    "40C97400BEF39AB6892F28B3F40F74C9BC448AF6" : "..\/..",
+    "5C4A2CFC87A6C12E65338C336A08B102B0BD5751" : "Fastest-RPM\/Fastest-RPM\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Fastest-RPM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Fastest-RPM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lipandevelope\/car-prep-objective-c-1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40C97400BEF39AB6892F28B3F40F74C9BC448AF6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lipandevelope\/fastest-RPM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C4A2CFC87A6C12E65338C336A08B102B0BD5751"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lipandevelope\/fastest-RPM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E228621A0B04E44691B276A09D3A282E06F75ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lipandevelope\/fastest-RPM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF627CD7FB893A2924FCC838E640A4BB64998F22"
+    }
+  ]
+}

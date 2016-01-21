@@ -28,8 +28,8 @@
 		0AEA5AD01C513BB200B70EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AEA5AD31C513BB200B70EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEA5AD51C513BB200B70EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AEA5ADB1C513BD500B70EEA /* RymB8v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RymB8v2.png; path = ../RymB8v2.png; sourceTree = "<group>"; };
-		0AEE61D71C51491A009B72DE /* olnJarq copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "olnJarq copy.png"; path = "../olnJarq copy.png"; sourceTree = "<group>"; };
+		0AEA5ADB1C513BD500B70EEA /* RymB8v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RymB8v2.png; sourceTree = "<group>"; };
+		0AEE61D71C51491A009B72DE /* olnJarq copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "olnJarq copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
