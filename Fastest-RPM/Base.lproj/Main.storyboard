@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RymB8v2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cjo-h3-l33">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RymB8v2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cjo-h3-l33">
                                 <rect key="frame" x="10" y="134" width="300" height="300"/>
                                 <animations/>
                                 <constraints>
@@ -53,7 +53,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="I4r-pE-KzQ"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="I4r-pE-KzQ">
+                    <connections>
+                        <action selector="velocityTranslator:" destination="BYZ-38-t0r" id="qOE-In-YJy"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="130" y="296"/>
         </scene>

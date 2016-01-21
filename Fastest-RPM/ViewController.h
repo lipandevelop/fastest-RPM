@@ -12,6 +12,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *needle;
 @property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *velocityRecognizer;
 @property (strong, nonatomic) UIView *topView;
+@property (assign, nonatomic) double angle;
+@property (assign, nonatomic) double speed;
+@property (assign, nonatomic) double speedCoefficient;
+
+
 
 
 @end

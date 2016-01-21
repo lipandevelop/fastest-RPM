@@ -14,7 +14,6 @@
 		0AEA5AD11C513BB200B70EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA5AD01C513BB200B70EEA /* Assets.xcassets */; };
 		0AEA5AD41C513BB200B70EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA5AD21C513BB200B70EEA /* LaunchScreen.storyboard */; };
 		0AEA5ADC1C513BD500B70EEA /* RymB8v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA5ADB1C513BD500B70EEA /* RymB8v2.png */; };
-		0AEA5ADE1C513BDD00B70EEA /* olnJarq.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA5ADD1C513BDD00B70EEA /* olnJarq.png */; };
 		0AEE61D81C51491A009B72DE /* olnJarq copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE61D71C51491A009B72DE /* olnJarq copy.png */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		0AEA5AD31C513BB200B70EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEA5AD51C513BB200B70EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AEA5ADB1C513BD500B70EEA /* RymB8v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RymB8v2.png; path = ../RymB8v2.png; sourceTree = "<group>"; };
-		0AEA5ADD1C513BDD00B70EEA /* olnJarq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = olnJarq.png; path = ../olnJarq.png; sourceTree = "<group>"; };
 		0AEE61D71C51491A009B72DE /* olnJarq copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "olnJarq copy.png"; path = "../olnJarq copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,9 +48,6 @@
 			children = (
 				0AEA5AC31C513BB200B70EEA /* Fastest-RPM */,
 				0AEA5AC21C513BB200B70EEA /* Products */,
-				0AEA5ADB1C513BD500B70EEA /* RymB8v2.png */,
-				0AEA5ADD1C513BDD00B70EEA /* olnJarq.png */,
-				0AEE61D71C51491A009B72DE /* olnJarq copy.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +70,7 @@
 				0AEA5AD01C513BB200B70EEA /* Assets.xcassets */,
 				0AEA5AD21C513BB200B70EEA /* LaunchScreen.storyboard */,
 				0AEA5AD51C513BB200B70EEA /* Info.plist */,
+				0AEE61D91C517341009B72DE /* Images */,
 				0AEA5AC41C513BB200B70EEA /* Supporting Files */,
 			);
 			path = "Fastest-RPM";
@@ -86,6 +82,16 @@
 				0AEA5AC51C513BB200B70EEA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AEE61D91C517341009B72DE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0AEA5ADB1C513BD500B70EEA /* RymB8v2.png */,
+				0AEE61D71C51491A009B72DE /* olnJarq copy.png */,
+			);
+			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +156,6 @@
 				0AEA5AD41C513BB200B70EEA /* LaunchScreen.storyboard in Resources */,
 				0AEA5AD11C513BB200B70EEA /* Assets.xcassets in Resources */,
 				0AEA5ACF1C513BB200B70EEA /* Main.storyboard in Resources */,
-				0AEA5ADE1C513BDD00B70EEA /* olnJarq.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
