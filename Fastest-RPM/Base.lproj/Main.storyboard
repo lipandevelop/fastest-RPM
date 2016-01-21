@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RymB8v2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cjo-h3-l33">
+                                <rect key="frame" x="10" y="134" width="300" height="300"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="3hx-dq-d2q"/>
+                                    <constraint firstAttribute="height" constant="300" id="ULf-3X-j8V"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olnJarq copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="fdc-9r-W7f">
+                                <rect key="frame" x="39" y="259" width="242" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="ExZ-9Q-kB4"/>
+                                    <constraint firstAttribute="height" constant="50" id="UFU-EL-LDV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="fdc-9r-W7f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2hG-Al-u6v"/>
+                            <constraint firstItem="cjo-h3-l33" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FXY-O6-TSS"/>
+                            <constraint firstItem="fdc-9r-W7f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T48-db-6Xg"/>
+                            <constraint firstItem="cjo-h3-l33" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v9r-4M-xLB"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="I4r-pE-KzQ" appends="YES" id="ygH-yQ-fdp"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="needle" destination="fdc-9r-W7f" id="p0L-Nu-1KS"/>
+                        <outlet property="velocityRecognizer" destination="I4r-pE-KzQ" id="zYi-I8-17H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="I4r-pE-KzQ"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="296"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RymB8v2.png" width="300" height="300"/>
+        <image name="olnJarq copy.png" width="480" height="101"/>
+    </resources>
+</document>
